@@ -19,7 +19,7 @@ export default function Home() {
       {/* Buttons */}
       <div className="flex gap-6">
         <Link
-          href="/anime"
+          href="https://skunktank.me"
           className="px-8 py-3 rounded-2xl bg-purple-600 hover:bg-purple-700 shadow-lg text-lg font-semibold transition">
           Watch Anime
         </Link>
