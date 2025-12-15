@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import styled from 'styled-components';
-import Image404URL from '/src/assets/404.webp';
+import React, { useEffect } from "react";
+import styled from "styled-components";
+import Image404URL from "/src/assets/404.webp";
 
 // Styled component for Centered Content
 const CenteredContent = styled.div`
@@ -32,7 +32,7 @@ const Idkwhattonamethis = styled.div``;
 const NotFound: React.FC = () => {
   useEffect(() => {
     const previousTitle = document.title;
-    document.title = '404 | Page Not Found';
+    document.title = "404 | Page Not Found";
     return () => {
       document.title = previousTitle;
     };
