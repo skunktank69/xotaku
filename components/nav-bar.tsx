@@ -85,7 +85,7 @@ export default function NavBar() {
   }, [isMobileMenuOpen]);
 
   const navItems = [
-    { name: "Anime", href: "/anime", icon: Play },
+    { name: "Anime", href: "https://skunktank.me", icon: Play },
     { name: "Manga", href: "/manga", icon: BookOpen },
     { name: "Top Rated", href: "/top", icon: Star },
     { name: "Watchlist", href: "/anime/wl", icon: BookMarked },
